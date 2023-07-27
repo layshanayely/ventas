@@ -1,0 +1,46 @@
+
+.buttons {
+    display: flex; /*Establece el tipo de caja generada por un elemento*/
+    align-items: center;
+    flex-wrap: wrap; /*Es una propiedad del contenedor flex y especifica 
+                      si puede haber un cambio de línea*/
+    flex-direction: column;
+    font-size: 80px;
+  }
+
+  .buttons > * {
+    display: inline-block;
+    color: white;
+    background-color: #0473db;
+    box-shadow: -1px 1px 3px 0px rgba(0, 0, 0, 0.75);
+    margin: 10px;
+  }
+  
+  .btn-px {
+    font-size: 80px;
+    padding: 40px;
+    margin: 20px;
+  }
+  
+  .btn-rem {
+    font-size: 5rem;    /*5 * 16px base = 80px*/ 
+    padding: .5em;
+    margin: .25em;
+  }
+
+  
+.rgb{
+  background-color: rgb(255, 99, 71);/*Hace referencia al (red, green and blue)*/
+}
+.hex{
+  background-color: #ff6347; /*Usa tres pares de caracteres hexadecimales*/    
+}
+.hsl{
+  background-color: hsl(9, 100%, 64%);/*Usa tono, saturación y luminosidad*/
+}
+.rgba{
+  background-color: rgba(255, 99, 71, 0.5);
+}
+.hsla{
+  background-color: hsla(9, 100%, 64%, 0.5);
+}
